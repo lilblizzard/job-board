@@ -37,7 +37,7 @@ const NewJobForm = props => {
         props.addJob(job);
         console.log(job);
         // reset the form fields
-        setJob(props.initalFormState);
+        setJob(props.initialFormState);
         console.log(job);
       }}
     >
